@@ -134,3 +134,11 @@ footer {
 .container > div > p {
     margin-bottom: 20px;
 }
+
+ul {
+    font-size: 15px;
+}
+
+li > a {
+    color: white;
+}
