@@ -116,9 +116,6 @@ footer {
     flex: 1;
 }
 
-.container > div > section {
-    font-weight: bold;
-}
 
 .logo {
     color: white;
@@ -129,6 +126,7 @@ footer {
 
 .paragraph {
     margin-top: 118px;
+    font-weight: bold;
 }
 
 .container > div > p {
