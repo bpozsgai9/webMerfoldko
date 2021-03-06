@@ -15,6 +15,15 @@ p {
     font-style: italic;
 }
 
+.content {
+    padding-left: 40px;;
+}
+
+.greetBox {
+    padding-top: 100px;
+    height: 200px;
+}
+
 footer {
     padding: 10px;
     padding-left: 40px;
