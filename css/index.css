@@ -22,6 +22,10 @@ header {
     font-size: 70px;
 }
 
+.title > span {
+    color: tomato;
+}
+
 .slogan {
     font-size: 35px;
 }
