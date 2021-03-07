@@ -6,7 +6,7 @@ body {
     padding: 20px;
     font-family: 'Roboto';
     line-height: 200%;
-    background-image: url("kepek/hatter.jpg");
+    background-image: url('../kepek/hatter.jpg');
     background-repeat: no-repeat;
 
 }
