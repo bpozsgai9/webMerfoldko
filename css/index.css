@@ -99,6 +99,30 @@ a:hover {
     text-align: center;
 }
 
+.container {
+    padding-left: 70px;
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+}
+
+.polaroid {
+    width: 200px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    background-color: #1abc9c;
+    color:white;
+    box-shadow:  5px 5px 10px #303030;
+    border-radius: 10px;
+}
+
+.polaroid > img {
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
 footer {
     padding: 10px;
     padding-left: 50px;
