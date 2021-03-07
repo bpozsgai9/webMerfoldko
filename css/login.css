@@ -1,55 +1,91 @@
 
 body {
-    margin: 200px 580px 570px;
+
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
     font-family: 'Roboto';
     line-height: 200%;
-
     background-image: url("kepek/hatter.jpg");
-
     background-repeat: no-repeat;
-
 
 }
 
 .title {
 
-    font-size: 50px;
+    font-size: 70px;
     color: #1abc9c;
     font-family: 'Bebas Neue';
     text-align: center;
-    padding-right: 10px;
+    padding-left: 13px;
+    padding-top: 230px;
     font-weight: bold;
 
 
 }
 
 .userData {
-
-    font-size: 20px;
+    text-align: center;
+    font-size: 17px;
     padding: 20px;
     text-transform: uppercase;
-    color: #1abc9c;
+    color: black;
+    font-weight: bold;
 
 
 }
 
 .logIn {
-    text-align: right;
-    padding: 10px;
+    text-align: center;
+    padding-left: 77px;
+
 
 }
 
 .register {
-    font-size: 15px;
+    font-size: 11px;
     text-transform: none;
     line-height: normal;
     font-style: italic;
-    font-weight: bold;
+    font-weight: bolder;
     color: black;
+
 }
 
-.felulet {
+.password {
+
+    padding-right: 110px;
+}
+
+.email {
+
+    padding-right: 110px;
+}
+
+.footer {
+    color: lightblue;
+    background-color: lightblue;
+    height: 90px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 150%;
+    text-align: center;
+    opacity: 0.8;
+    padding-bottom: 50px;
+}
+
+.header {
+    padding-top: 50px;
+    font-size: 100px;
+    color: lightblue;
+    opacity: 0.8;
+    background-color: lightblue;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
 
 
 }
