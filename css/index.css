@@ -11,7 +11,7 @@ header {
     color: white;
     font-size: 20px;
     font-family: 'Bebas Neue';
-    background-image: url("kepek/hambi.jpg");
+    background-image: url('../kepek/hambi.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -150px;
