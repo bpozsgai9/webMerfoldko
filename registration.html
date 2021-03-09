@@ -4,46 +4,63 @@
     <meta charset="UTF-8">
     <title>Regisztráció🍕</title>
     <link rel="stylesheet" href="css/registration.css">
+    <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 <body>
 <header>
-    <div>
-
+    <div class="header">
+        <a style="text-decoration: none" href="index.html">
+            🥗
+        </a>
+        Cool <span>Food</span>
     </div>
 
 </header>
-<form>
-    <div class="register">Regisztrálj és<br/>Már rendelhetsz is!</div>
-    <br/>
-    <div class="name1">Családnév<span class="name2">Keresztnév</span></div>
-    <label>
-        <input type="text" name="csaladnev">
-
-        <input type="text" name="keresztnev">
-    </label>
-    <div id="email">E-mail</div>
-    <label>
-        <input type="email" name="email">
-    </label>
-    <div class="mobilSzam">Telefonszám</div>
-    <label>
-        <input type="tel" name="phone">
-    </label>
-
-    <br/>
-    <label>
-        <input type="checkbox" name="accept1">
-        Elfogadom az általános szerződési feltételeket.
+<article>
+    <form>
+        <div class="register"><b>Regisztráció</b></div>
         <br/>
-        <input type="checkbox" name="accept2">
-        Szeretnék értesülni az ajánlatokról és a promóciókról e-mailben.
+        <fieldset>
+            <legend style="font-size: 25px ">
 
-    </label>
-    <br/>
-    <label>
-        <input type="button" name="regisztralok" value="Regisztrálok">
-    </label>
-</form>
+                <b><i>Személyes adatok</i></b>
+
+            </legend>
+            <div class="name1">Családnév<span class="name2">Keresztnév</span></div>
+            <label>
+                <input type="text" name="csaladnev">
+
+                <input type="text" name="keresztnev">
+            </label>
+            <div id="email">E-mail</div>
+            <label>
+                <input type="email" name="email">
+            </label>
+            <div class="mobilSzam">Telefonszám</div>
+            <label>
+                <input type="tel" name="phone">
+            </label>
+            <label>
+                <input type="hidden" name="nemlatodugysem" value="hahaha">
+            </label>
+            <br/>
+            <label>
+                <input type="checkbox" name="accept1">
+                Elfogadom az <u>általános szerződési feltételeket.</u>
+                <br/>
+                <input type="checkbox" name="accept2">
+                Szeretnék értesülni az ajánlatokról és a promóciókról e-mailben.
+            </label>
+            <br/>
+            <label>
+                <input type="button" name="regisztralok" value="Regisztrálok">
+            </label>
+        </fieldset>
+
+    </form>
+</article>
+
 <footer>
 
 </footer>
