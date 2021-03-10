@@ -103,8 +103,13 @@ a:hover {
     text-align: center;
 }
 
+/*új dolgok helye*/
+.youtube {
+    padding-left: 100px;
+}
+
 .container {
-    padding-left: 70px;
+    padding-left: 20px;
     font-size: 20px;
     font-family: 'Bebas Neue';
 }
@@ -119,12 +124,25 @@ a:hover {
     border-radius: 10px;
 }
 
+.except > div > img {
+    filter: grayscale(0%);
+}
+
+.except:hover {
+    text-decoration: none;
+}
+
 .polaroid > img {
+    filter: grayscale(100%);
     width: 200px;
+    height: 200px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
+span {
+    color: tomato;
+}
 
 
 footer {
@@ -154,7 +172,6 @@ footer {
 
 .paragraph {
     margin-top: 118px;
-    font-weight: bold;
 }
 
 .container > div > p {
