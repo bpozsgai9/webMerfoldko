@@ -104,9 +104,31 @@ a:hover {
 }
 
 /*új dolgok helye*/
-.youtube {
-    padding-left: 100px;
+.box {
+
+    background-color: #1abc9c;
+    height: 500px;
+    margin: none;
 }
+
+.box > img {
+    width: 500px;
+    float: right;
+}
+
+.box > div {
+    float: left;
+    margin-top: 50px;
+}
+
+.box > div > span {
+    margin-left: 50px;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    color: white;
+    
+}
+
 
 .container {
     padding-left: 20px;
@@ -142,6 +164,15 @@ a:hover {
 
 span {
     color: tomato;
+}
+
+table {
+    margin-bottom: 100px;
+}
+
+.youtube {
+    padding-left: 100px;
+    margin-bottom: 100px;
 }
 
 
