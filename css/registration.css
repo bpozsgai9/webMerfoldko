@@ -26,6 +26,8 @@ fieldset {
     width: 400px;
     margin: auto;
     background-color: beige;
+    color: #1abc9c;
+    text-shadow: 1px 1px black;
 
 
 }

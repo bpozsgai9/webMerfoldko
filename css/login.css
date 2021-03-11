@@ -1,92 +1,67 @@
 
 body {
+    margin-right: 350px;
+    margin-left: 350px;
+    font-family: 'Bebas Neue';
+    margin-top: 200px;
+    background-color: beige;
 
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    font-family: 'Roboto';
-    line-height: 200%;
-    background-image: url('../kepek/hatter.jpg');
-    background-repeat: no-repeat;
 
+}
+
+#kep {
+    float: left;
+
+}
+
+.felulet {
+    font-size: 31px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: lightcyan;
+}
+
+.password, .email {
+    padding-right: 167px;
 }
 
 .title {
-
-    font-size: 70px;
-    color: #1abc9c;
-    font-family: 'Bebas Neue';
-    text-align: center;
-    padding-left: 13px;
-    padding-top: 230px;
-    font-weight: bold;
-
-
-}
-
-.userData {
-    text-align: center;
-    font-size: 17px;
-    padding: 20px;
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
 
 
 }
 
 #logIn {
-    text-align: center;
-    padding-left: 77px;
+
+}
+
+a {
+    font-size: 15px;
+
+    text-decoration: none;
+}
+
+input[type=email], input[type=password] {
+    width: 30%;
+    height: 2em;
+
+
+}
+
+input[type=submit] {
+    width: 31.12%;
+    height: 2.5em;
+    background-color: #1abc9c;
+}
+
+.header {
+    float: left;
+    font-size: 30px;
 
 
 }
 
 .register {
-    font-size: 11px;
-    text-transform: none;
-    line-height: normal;
-    font-style: italic;
-    font-weight: bolder;
-    color: black;
-
+    padding-top: 37px;
 }
 
-.password {
-
-    padding-right: 110px;
-}
-
-.email {
-
-    padding-right: 110px;
-}
-
-.footer {
-    color: lightblue;
-    background-color: lightblue;
-    height: 90px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 150%;
-    text-align: center;
-    opacity: 0.8;
-    padding-bottom: 50px;
-}
-
-.header {
-    padding-top: 50px;
-    font-size: 100px;
-    color: lightblue;
-    opacity: 0.8;
-    background-color: lightblue;
-    height: 90px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-
-
-}
 
