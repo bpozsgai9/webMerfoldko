@@ -69,6 +69,7 @@ h1 {
     font-size: 20px;
     border: none;
     padding-left: 20px;
+    border-radius: 5px;
 }
 
 aside {
@@ -119,14 +120,14 @@ a:hover {
 .box > div {
     float: left;
     margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+    color: white;
 }
 
 .box > div > span {
-    margin-left: 50px;
-    font-family: 'Bebas Neue';
     font-size: 30px;
-    color: white;
-    
+    font-weight: bold;
 }
 
 
