@@ -10,43 +10,44 @@
 <body>
 <header>
     <div class="header">
-        <a style="text-decoration: none" href="index.html">
-            🥗
+        <a style="text-decoration: none;color: inherit" href="index.html">
+            🥗 Cool <span>Food</span>
         </a>
-        Cool <span>Food</span>
     </div>
 
 </header>
-<article>
-    <form>
-        <div class="register"><b>Regisztráció</b></div>
+<form>
+    <div class="register">
+        <b>Hozd létre fiókodat</b>
+    </div>
+    <br/>
+    <fieldset>
+        <legend style="font-size: 25px ">
+
+            <b><i>Személyes adatok</i></b>
+
+        </legend>
+
+        <label>
+            <input type="text" name="csaladnev" placeholder="Vezetéknév" required>
+
+            <input type="text" name="keresztnev" placeholder="Keresztnév" required>
+        </label>
         <br/>
-        <fieldset>
-            <legend style="font-size: 25px ">
-
-                <b><i>Személyes adatok</i></b>
-
-            </legend>
-            <div class="name1">Családnév<span class="name2">Keresztnév</span></div>
-            <label>
-                <input type="text" name="csaladnev">
-
-                <input type="text" name="keresztnev">
+        <label>
+            <input type="email" name="email" placeholder="E-mail" required>
+        </label>
+        <br/>
+        <label>
+            <input type="tel" name="phone" placeholder="Telefonszám">
             </label>
-            <div id="email">E-mail</div>
-            <label>
-                <input type="email" name="email">
-            </label>
-            <div class="mobilSzam">Telefonszám</div>
-            <label>
-                <input type="tel" name="phone">
-            </label>
+
             <label>
                 <input type="hidden" name="nemlatodugysem" value="hahaha">
             </label>
             <br/>
             <label>
-                <input type="checkbox" name="accept1">
+                <input type="checkbox" name="accept1" required>
                 Elfogadom az <u>általános szerződési feltételeket.</u>
                 <br/>
                 <input type="checkbox" name="accept2">
@@ -54,12 +55,12 @@
             </label>
             <br/>
             <label>
-                <input type="button" name="regisztralok" value="Regisztrálok">
+                <input type="submit" name="regisztralok" value="FIÓK LÉTREHOZÁSA">
             </label>
         </fieldset>
 
     </form>
-</article>
+
 
 <footer>
 

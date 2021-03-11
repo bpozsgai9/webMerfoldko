@@ -2,30 +2,19 @@ body {
     margin: auto;
     font-size: 20px;
     font-family: 'Bebas Neue';
-
     text-shadow: 1px 1px white;
+    background-color: azure;
 
 }
+
 
 .register {
     text-align: center;
     color: #1abc9c;
     font-size: 35px;
     text-shadow: 2px 2px black;
-
 }
 
-
-.name1 {
-}
-
-.name2 {
-
-    padding-left: 100px;
-}
-
-#email {
-}
 
 div, label {
     letter-spacing: 2px;
@@ -40,18 +29,28 @@ fieldset {
 
 
 }
-
 footer {
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 150%;
+    text-align: center;
+    opacity: 0.8;
+    padding-bottom: 50px;
+    background-image: url('../kepek/footer.jpg');
 }
 
 .header {
     text-shadow: 2px 2px black;
     font-size: 50px;
-    background-image: url('../kepek/regisztracioshatter.jpg');
+    background-image: url('../kepek/header.jpg');
     color: #1abc9c;
+
 }
 
-.header > span {
+a > span {
     text-shadow: 2px 2px black;
     color: tomato;
 }
+
