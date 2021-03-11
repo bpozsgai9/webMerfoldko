@@ -1,10 +1,10 @@
 
 body {
-    margin-right: 350px;
-    margin-left: 350px;
+    margin-right: 280px;
+    margin-left: 280px;
     font-family: 'Bebas Neue';
-    margin-top: 200px;
-    background-color: beige;
+    margin-top: 105px;
+    color: #1abc9c;
 
 
 }
@@ -15,10 +15,13 @@ body {
 }
 
 .felulet {
-    font-size: 31px;
+    font-size: 50px;
     text-align: center;
     border: 1px solid black;
     background-color: lightcyan;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
 }
 
 .password, .email {
@@ -41,14 +44,13 @@ a {
 }
 
 input[type=email], input[type=password] {
-    width: 30%;
-    height: 2em;
-
-
+    width: 40%;
+    font-size: 15px;
 }
 
+
 input[type=submit] {
-    width: 31.12%;
+    width: 41.12%;
     height: 2.5em;
     background-color: #1abc9c;
 }
@@ -63,5 +65,30 @@ input[type=submit] {
 .register {
     padding-top: 37px;
 }
+
+.emailicon i, .jelszoicon i {
+    position: absolute;
+}
+
+.emailicon, .jelszoicon {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding-top: 15px;
+    padding-left: 7px;
+    color: #1abc9c;
+    min-width: 25px;
+    text-align: center;
+}
+
+.belso {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+
 
 

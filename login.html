@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="css/login.css">
     <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet"
+          href=
+                  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <header class="header">
@@ -17,7 +20,7 @@
 </div>
 <div class="felulet">
 
-    <img id="kep" src="kepek/kep3.jpg" alt="dekor">
+    <img id="kep" src="kepek/bejelentkezes.jpg" alt="dekor">
     <form method="post">
         <br/>
         <div class="title">
@@ -25,17 +28,24 @@
         </div>
 
         <div class="userData">
-            <div class="email">E-mail</div>
-            <label>
-                <input type="email" name="email" size="20" required placeholder="E-mail">
-            </label><br/>
+            <div class="emailicon">
+                <label>
+                    <i class="fa fa-envelope icon">
+                    </i>
+                    <input class="belso" type="email" name="email" size="20" required placeholder="E-mail">
+                </label>
+            </div>
+            <div class="jelszoicon">
+                <label>
+                    <i class="fa fa-key icon">
+                    </i>
+                    <input class="belso" type="password" name="password" size="20" required placeholder="Jelszó">
+                </label>
+            </div>
 
-            <div class="password">Jelszó</div>
-            <label>
-                <input type="password" name="password" size="20" required placeholder="Jelszó">
-            </label><br/>
             <div id="logIn">
                 <label>
+
                     <input type="submit" value="Bejelentkezés">
                 </label>
             </div>
