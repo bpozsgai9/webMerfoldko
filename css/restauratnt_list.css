@@ -79,11 +79,13 @@ h1 {
     padding-top: 20px;
     font-family: 'Bebas Neue';
     font-size: 35px;
-    color: white;
+    color: tomato;
 }
 
 .first  > .info {
     font-family: 'Roboto';
+    font-weight: bold;
+    color: white;
 }
 
 .buttons > input[type=button]{
