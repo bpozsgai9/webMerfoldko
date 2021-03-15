@@ -19,7 +19,7 @@ header {
 
 .title {
     color:#1abc9c ;
-    font-size: 70px;
+    font-size: 80px;
 }
 
 .title > span {
@@ -28,4 +28,65 @@ header {
 
 .slogan {
     font-size: 35px;
+}
+
+header > a {
+    color:white;
+    font-size: 20px;
+}
+
+header > a:hover {
+    color:tomato;
+}
+
+.content {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: tomato;
+    font-family: 'Roboto';
+}
+
+.element {
+    width: 1200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #1abc9c;
+    box-shadow:  5px 5px 10px #303030;
+}
+
+.container {
+    display: flex;
+}
+
+.second {
+    flex-grow: 1;
+}
+
+.element > img {
+    
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.first > .name {
+
+    padding-top: 20px;
+    font-family: 'Bebas Neue';
+    font-size: 35px;
+    color: white;
+}
+
+.first  > .info {
+    font-family: 'Roboto';
+}
+
+.buttons > input[type=button]{
+    height: 66.66666px;
+    width: 150px;
 }
