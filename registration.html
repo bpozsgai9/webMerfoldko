@@ -10,40 +10,52 @@
 <body>
 <header>
     <div class="header">
-        <a style="text-decoration: none;color: inherit" href="index.html">
-            🥗 Cool <span>Food</span>
-        </a>
+        <ul>
+            <li><a href="index.html"><b>Főoldal</b></a></li>
+            <li><a href="login.html"><b>Bejelentkezés</b></a></li>
+            <li style="color: tomato"><b>Regisztráció</b></li>
+        </ul>
     </div>
+
 
 </header>
 <form>
     <div class="register">
         <b>Hozd létre fiókodat</b>
     </div>
-    <br/>
+
     <fieldset>
-        <legend style="font-size: 25px ">
+        <legend style="font-size: 20px ">
 
             <b><i>Személyes adatok</i></b>
 
         </legend>
+        <div class="belso">
+            <div class="nev">Vezetéknév<span>Keresztnév</span></div>
+            <label>
+                <input type="text" name="csaladnev" placeholder="Vezetéknév" required>
 
-        <label>
-            <input type="text" name="csaladnev" placeholder="Vezetéknév" required>
-
-            <input type="text" name="keresztnev" placeholder="Keresztnév" required>
-        </label>
-        <br/>
-        <label>
-            <input type="email" name="email" placeholder="E-mail" required>
-        </label>
-        <br/>
-        <label>
-            <input type="tel" name="phone" placeholder="Telefonszám">
+                <input type="text" name="keresztnev" placeholder="Keresztnév" required>
             </label>
-
+            <br/>
+            <div>E-mail</div>
+            <label>
+                <input type="email" name="email" placeholder="E-mail" required>
+            </label>
+            <br/>
+            <div>Telefonszám</div>
+            <label>
+                <input type="tel" name="phone" placeholder="Telefonszám">
+            </label>
             <label>
                 <input type="hidden" name="nemlatodugysem" value="hahaha">
+            </label>
+            <br>
+
+            <div>Születési dátum</div>
+            <label>
+
+                <input type="date" name="szuldat">
             </label>
             <br/>
             <label>
@@ -53,11 +65,16 @@
                 <input type="checkbox" name="accept2">
                 Szeretnék értesülni az ajánlatokról és a promóciókról e-mailben.
             </label>
-            <br/>
-            <label>
-                <input type="submit" name="regisztralok" value="FIÓK LÉTREHOZÁSA">
-            </label>
-        </fieldset>
+            <div id="also">
+                <label>
+                    <input type="submit" name="regisztralok" value="FIÓK LÉTREHOZÁSA">
+                    <input type="reset" name="ujra" value="ALAPHELYZET">
+                </label>
+            </div>
+
+        </div>
+
+    </fieldset>
 
     </form>
 
