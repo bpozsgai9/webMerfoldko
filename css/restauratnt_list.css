@@ -45,7 +45,7 @@ header > a:hover {
 }
 
 h1 {
-    color: tomato;
+    color: #1abc9c;
     font-family: 'Roboto';
 }
 
@@ -53,8 +53,9 @@ h1 {
     width: 1200px;
     height: 200px;
     border-radius: 10px;
-    background-color: #1abc9c;
+    background-color: tomato;
     box-shadow:  5px 5px 10px #303030;
+    margin-bottom: 30px;
 }
 
 .container {
@@ -79,7 +80,7 @@ h1 {
     padding-top: 20px;
     font-family: 'Bebas Neue';
     font-size: 35px;
-    color: tomato;
+    color: #303030;
 }
 
 .first  > .info {
@@ -88,7 +89,36 @@ h1 {
     color: white;
 }
 
-.buttons > input[type=button]{
-    height: 66.66666px;
+.buttons > div {
+    height: 33.3333px;
+    padding-top: 16.6666px;
+    text-align: center;
     width: 150px;
+}
+
+.buttons > .smiley {
+    background-color: #303030;
+    border-top-right-radius: 10px;
+}
+
+.buttons > .menu {
+    background-color: #101010;
+}
+
+.buttons > .contact {
+    background-color: #303030;
+}
+
+.buttons > .saveToFavList {
+    background-color: #101010;
+    border-bottom-right-radius: 10px;
+}
+
+.buttons > div > a {
+    color: tomato;
+    font-family: 'Bebas Neue';
+}
+
+.element > img:not(.except) {
+    filter: grayscale(100%);
 }
