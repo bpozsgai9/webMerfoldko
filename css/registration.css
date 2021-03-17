@@ -1,10 +1,8 @@
 body {
     margin: auto;
-    font-size: 20px;
     font-family: 'Bebas Neue';
     text-shadow: 1px 1px white;
     background-color: azure;
-
 }
 
 
@@ -23,36 +21,56 @@ div, label {
 }
 
 fieldset {
-    width: 400px;
+    width: 600px;
     margin: auto;
     background-color: beige;
     color: #1abc9c;
     text-shadow: 1px 1px black;
-
-
 }
-footer {
-    height: 50px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 150%;
-    text-align: center;
-    opacity: 0.8;
-    padding-bottom: 50px;
-    background-image: url('../kepek/footer.jpg');
+
+input {
+    width: 35%;
+    line-height: 30px;
+    color: tomato;
+    font-weight: bold;
+
 }
 
 .header {
+    position: fixed;
+    width: 15%;
+    height: 155px;
     text-shadow: 2px 2px black;
-    font-size: 50px;
-    background-image: url('../kepek/header.jpg');
+    font-size: 20px;
     color: #1abc9c;
-
+    border: 2px solid black;
+    background-color: white;
 }
 
-a > span {
+.header > span {
     text-shadow: 2px 2px black;
     color: tomato;
 }
+
+#also {
+    padding-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+.nev > span {
+    padding-left: 70px;
+}
+
+.belso {
+    padding-left: 50px;
+    font-size: 30px;
+
+}
+
+
+
 
