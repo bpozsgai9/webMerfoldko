@@ -50,19 +50,19 @@ input[type=submit] {
     padding-top: 37px;
 }
 
-.emailicon i, .jelszoicon i {
+i {
     position: absolute;
 }
 
 .emailicon, .jelszoicon {
-    width: 100%;
+
     margin-bottom: 10px;
 }
 
 .icon {
     padding-top: 15px;
     padding-left: 7px;
-    color: #1abc9c;
+    color: tomato;
     min-width: 25px;
     text-align: center;
 }
@@ -129,19 +129,19 @@ input[type=submit] {
         padding-top: 37px;
     }
 
-    .emailicon i, .jelszoicon i {
+    i {
         position: absolute;
     }
 
     .emailicon, .jelszoicon {
-        width: 100%;
+
         margin-bottom: 10px;
     }
 
     .icon {
         padding-top: 15px;
         padding-left: 7px;
-        color: #1abc9c;
+        color: tomato;
         text-align: center;
     }
 
