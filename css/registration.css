@@ -3,6 +3,7 @@ body {
     font-family: 'Bebas Neue';
     text-shadow: 1px 1px white;
     background-color: azure;
+    white-space: normal;
 }
 
 
