@@ -107,7 +107,7 @@ a:hover {
 /*új dolgok helye*/
 .box {
 
-    background-color: #1abc9c;
+    background: #303030;
     height: 500px;
     margin: none;
 }
@@ -126,8 +126,12 @@ a:hover {
 }
 
 .box > div > span {
-    font-size: 30px;
-    font-weight: bold;
+    
+    font-size: 40px;
+    color: #1abc9c;
+    font-family: 'Bebas Neue';
+    text-decoration: underline;
+
 }
 
 
@@ -211,7 +215,8 @@ footer {
 }
 
 ul {
-    font-size: 15px;
+    font-size: 16px;
+    color: tomato;
 }
 
 li > a {
