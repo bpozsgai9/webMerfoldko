@@ -2,8 +2,9 @@ body {
     margin: auto;
     font-family: 'Bebas Neue';
     text-shadow: 1px 1px white;
-    background-color: azure;
+    background-color: white;
     white-space: normal;
+    background-attachment: fixed;
 }
 
 
@@ -27,6 +28,7 @@ fieldset {
     background-color: beige;
     color: #1abc9c;
     text-shadow: 1px 1px black;
+    box-shadow: 3px 3px 5px 6px #ccc;
 }
 
 input {
@@ -39,19 +41,14 @@ input {
 
 .header {
     position: fixed;
-    width: 15%;
-    height: 155px;
-    text-shadow: 2px 2px black;
+    width: 27%;
+    height: 80px;
+
     font-size: 20px;
     color: #1abc9c;
-    border: 2px solid black;
     background-color: white;
 }
 
-.header > span {
-    text-shadow: 2px 2px black;
-    color: tomato;
-}
 
 #also {
     padding-left: 100px;
@@ -69,9 +66,20 @@ a {
 .belso {
     padding-left: 50px;
     font-size: 30px;
-
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+#index:hover, #login:hover {
+    color: #303030;
+    text-decoration: underline;
+}
 
 
 
