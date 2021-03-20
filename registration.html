@@ -14,7 +14,6 @@
         <ul>
             <li><a id="index" href="index.html"><b>Főoldal</b></a></li>
             <li><a id="login" href="login.html"><b>Bejelentkezés</b></a></li>
-            <li style="color: tomato"><b>Regisztráció</b></li>
         </ul>
     </div>
 
@@ -26,7 +25,7 @@
     </div>
 
     <fieldset>
-        <legend style="font-size: 20px ">
+        <legend style="font-size: 20px;">
 
             <b><i>Személyes adatok</i></b>
 
@@ -49,7 +48,7 @@
                 <input type="tel" name="phone" placeholder="Telefonszám">
             </label>
             <label>
-                <input type="hidden" name="nemlatodugysem" value="hahaha">
+                <input type="hidden" id="save" name="ment" value="">
             </label>
             <br>
 
@@ -61,10 +60,14 @@
             <label>
                 <input type="checkbox" name="accept1" required>
                 Elfogadom az <u>általános szerződési feltételeket.</u>
+            </label>
                 <br/>
+            <label>
                 <input type="checkbox" name="accept2">
                 Szeretnék értesülni az ajánlatokról és a promóciókról e-mailben.
             </label>
+
+
             <div id="also">
                 <label>
                     <input type="submit" name="regisztralok" value="FIÓK LÉTREHOZÁSA">

@@ -4,7 +4,6 @@ body {
     text-shadow: 1px 1px white;
     background-color: white;
     white-space: normal;
-    background-attachment: fixed;
 }
 
 
@@ -19,16 +18,17 @@ body {
 div, label {
     letter-spacing: 2px;
     line-height: 200%;
-    white-space: normal;
+
+
 }
 
 fieldset {
     width: 600px;
     margin: auto;
-    background-color: beige;
+    font-family: 'Roboto';
     color: #1abc9c;
     text-shadow: 1px 1px black;
-    box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 15px 10px #ccc;
 }
 
 input {
@@ -36,14 +36,16 @@ input {
     line-height: 30px;
     color: tomato;
     font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid #1abc9c;
 
 }
+
 
 .header {
     position: fixed;
     width: 27%;
     height: 80px;
-
     font-size: 20px;
     color: #1abc9c;
     background-color: white;
@@ -60,7 +62,7 @@ a {
 }
 
 .nev > span {
-    padding-left: 70px;
+    padding-left: 40px;
 }
 
 .belso {
@@ -70,6 +72,7 @@ a {
 
 ul {
     list-style: none;
+    letter-spacing: 5px;
 }
 
 li {
@@ -80,6 +83,13 @@ li {
     color: #303030;
     text-decoration: underline;
 }
+
+u:hover {
+    color: #303030;
+    text-decoration: underline;
+}
+
+
 
 
 
