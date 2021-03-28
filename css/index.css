@@ -109,7 +109,7 @@ a:hover {
 
     background: #303030;
     height: 500px;
-    margin: none;
+    margin: 0;
 }
 
 .box > img {
